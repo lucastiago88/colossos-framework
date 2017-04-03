@@ -33,6 +33,10 @@ a img{ border:none; }
 #background-colossus .btn{padding: 15px 30px; font-size: 20px;}
 #background-colossus .divider{margin: 0 auto 30px;font-size: 20px;color: #fff;}
 .btn-outline-transparent{color: #fff; background-color: transparent; border-color: #fff;}
+.btn-outline-transparent:hover{background: #f5f5f5;}
+#conteudo{padding-bottom: 80px;}
+#conteudo h2{text-align: center; color: #333; margin-bottom: 5px;font-size: 35px;font-weight: 400; color: #333;}
+#conteudo p{max-width: 80%;margin:auto; font-size: 24px;}
 
 /*******MENU*****/
 .sidebar-menu{background: #2196f3; height: 100%; max-height: 100%;}
@@ -41,8 +45,21 @@ a img{ border:none; }
 #menu a{padding-left: 10px;}
 #menu ul li a:hover{ background: transparent; color: #fff;}
 #menu .navbar-nav > li { width: 100%;}
+.sidenav {height: 100%; width: 0;position: fixed;z-index: 1;top: 0;left: 0;background-color: #FAFAFA;overflow-x: hidden;transition: 0.5s;padding-top: 60px;}
+.sidenav a {padding: 8px 8px 8px 32px;text-decoration: none;font-size: 25px;color: #fff; display: block;transition: 0.3s}
+.sidenav a:hover, .offcanvas a:focus{color: #f1f1f1;}
+.sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
+#main {transition: margin-left .5s;padding: 16px;}
+
+
 
 /********RODAPÉ*******/
 
 #rodape {background: #F5F5F5;padding: 20px;}
 
+
+/****** RESPONSIVIDADE***/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
