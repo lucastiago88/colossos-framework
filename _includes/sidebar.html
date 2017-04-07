@@ -1,18 +1,33 @@
 <div id="wrapper">
     <!-- Sidebar -->
-    <nav id="sidebar-wrapper">
-       
+    <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
-            <a href="javascript:void(0)" class="closebtn"><i class="fa fa-times" aria-hidden="true"></i></a>
             <li class="sidebar-brand">
-                <a href="/">{{site.title}}</a>
+                <a href="#">
+                    Start Bootstrap
+                </a>
             </li>
-            {% for page in site.pages %}
-             <li>
-                <a href="{{page.url}}">{{page.title}}</a>
+            <li>
+                <a href="#">Dashboard</a>
             </li>
-            {% endfor %}
+            <li>
+                <a href="#">Shortcuts</a>
+            </li>
+            <li>
+                <a href="#">Overview</a>
+            </li>
+            <li>
+                <a href="#">Events</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
         </ul>
-    </nav>
+    </div>
 </div>
-

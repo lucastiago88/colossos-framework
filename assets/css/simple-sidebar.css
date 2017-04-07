@@ -4,7 +4,9 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
 
-
+ body {
+    overflow-x: hidden;
+ }
 
 /* Toggle Styles */
 
@@ -14,15 +16,6 @@
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}
-
-.sidebar-nav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 14px;
-    font-size: 28px;
-    margin-left: 50px;
-    color: #fff
 }
 
 #wrapper.toggled {
@@ -37,12 +30,11 @@
     height: 100%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #2196f3;
+    background: #000;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
-    box-shadow: 0 1px 1px 1px rgba(0,0,0,0.3);
 }
 
 #wrapper.toggled #sidebar-wrapper {
@@ -79,8 +71,7 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
+    color: #999999;
 }
 
 .sidebar-nav li a:hover {
@@ -100,8 +91,8 @@
     line-height: 60px;
 }
 
-.sidebar-nav > .sidebar-brand li a {
-    color: #fff;
+.sidebar-nav > .sidebar-brand a {
+    color: #999999;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
