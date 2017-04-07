@@ -6,3 +6,15 @@
 */
 
 /***** CUSTOMIZAÇÃO DOS ELEMENTOS*****/
+
+
+/*Alerts*/
+
+.alert-success-colossus{
+background-color: #4caf50;
+}
+
+.alert-info-colossus{
+background-color: #ffeb3b;
+}
+
