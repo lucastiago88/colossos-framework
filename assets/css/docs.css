@@ -1,7 +1,7 @@
 
 /******* GERAL*******/
 
-body{margin: 0;padding: 0;background-color:#fff;   height: 100%; width: 100%;   font-family: 'Roboto', sans-serif;}
+body{margin: 0;padding: 0;background-color:#fff;   height: 100%; width: 100%;  font:16px "Source Sans Pro";}
 ul, ol{ list-style: none; padding:0; margin:0; }
 a{ cursor:pointer; text-decoration:none;}
 a:hover, a:focus{ text-decoration:none; }
@@ -10,7 +10,7 @@ a img{ border:none; }
 
 /****** Classes do Template*****/
 
-.cor-smed-400{background-color:#1976D2; }
+.cor-smed-colossus{background-color:#1976D2; }
 .cor-smed-500{background-color:#1565C0; }
 .cor-smed-600{background-color:#2196f3; }
 .padding30px{margin-top: 30px;}
@@ -23,14 +23,12 @@ a img{ border:none; }
 #nome-prefeitura{float: left}
 #nome-prefeitura h1{color: #fff; font-size: 15px;}
 #logomarca{ float: left;}
-.colossus-animate{transition: transform 0.1s cubic-bezier(0, 1.8, 1, 1.8);transform: translateY(0.7em);}
-.colossus-animate:hover{transform: translateY(1em) rotate(-2deg) scale(1.15)}
-#background-colossus{position: static; background: #1565C0; text-align: center;text-shadow: 0 1px 0 rgba(0,0,0,.1);padding: 80px 0}
+#background-colossus{position: static; background: #0065b3; text-align: center;text-shadow: 0 1px 0 rgba(0,0,0,.1);padding: 80px 0}
+#background-colossus .logo{border-radius: 50%;margin: 0 auto;color: #0065b3;background-color: #ffffff;display: block;font-size: 78px;font-weight: bold;width: 100px;}
 .bloco-texto{display: block; text-align: center; clear: both; position: relative;}
-#background-colossus .bloco-texto h1{ font-size: 45px; color: rgba(255, 255, 255, 1);line-height: 50px; margin: 0; padding: 0; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);} 
-#background-colossus .bloco-texto h1  .texto-colossus{ display: block; font-size: 45px; font-weight: bold;}
-#background-colossus .bloco-texto h1  .texto-interface {font-size: 35px;}
+#background-colossus  h1{ font-size: 45px; color: rgba(255, 255, 255, 1);line-height: 50px; margin: 0; padding: 0; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);} 
 #background-colossus .btn{padding: 15px 30px; font-size: 20px;}
+#background-colossus .texto-apresentacao{margin-right: auto;margin-bottom: 2rem;margin-left: auto;font-size:20px;color: #fff; max-width: 42%;}
 #background-colossus .divider{margin: 0 auto 30px;font-size: 20px;color: #fff;}
 .btn-outline-transparent{color: #fff; background-color: transparent; border-color: #fff;}
 .btn-outline-transparent:hover{background: #f5f5f5;}
@@ -53,16 +51,16 @@ a.item-menu:hover, a.item-menu:active, a.item-menu:focus, a.item-menu:visited{ c
 
 .demo{position: relative; padding: 20px ; border: solid #f7f7f9; border-width: .2rem;}
 .componentes{ padding: 20px 0 0; margin-right: 0; margin-left: 0; background-color: #f7f7f9;}
-.componentes pre{    padding: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: transparent;
-    border: 0;
-}
+.componentes pre{padding: 0;margin-top: 0;margin-bottom: 0;background-color: transparent;border: 0;}
+.button-copy{position: relative;}
+.btn-copy{position: absolute;right: 16px;z-index: 10;display: block;padding: 5px 8px;font-size: 12px;color: #767676;cursor: pointer;background-color: #fff;border: 1px solid #e1e1e8;border-radius: 0 4px 0 4px;}
+
+                  
+                     
 
 /********RODAPÉ*******/
 
-#rodape {background: #F5F5F5;padding: 20px;}
+#rodape {background: #007bc1;padding: 40px;}
 
 
 /****** RESPONSIVIDADE***/

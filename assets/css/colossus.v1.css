@@ -14,7 +14,16 @@
 background-color: #4caf50;
 }
 
-.alert-info-colossus{
+.alert-warning-colossus{
 background-color: #ffeb3b;
 }
+
+.alert-info-colossus{
+background-color: #03a9f4;
+}
+
+.alert-danger-colossus{
+background-color: #f44336;
+}
+
 
