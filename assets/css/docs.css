@@ -10,7 +10,7 @@ a img{ border:none; }
 
 /****** Classes do Template*****/
 
-.cor-smed-colossus{background-color:#1976D2; }
+.cor-smed-colossus{background-color:#0066b3; }
 .cor-smed-500{background-color:#1565C0; }
 .cor-smed-600{background-color:#2196f3; }
 .padding30px{margin-top: 30px;}
@@ -27,11 +27,11 @@ a img{ border:none; }
 #background-colossus .logo{border-radius: 50%;margin: 0 auto;color: #0065b3;background-color: #ffffff;display: block;font-size: 78px;font-weight: bold;width: 100px;}
 .bloco-texto{display: block; text-align: center; clear: both; position: relative;}
 #background-colossus  h1{ font-size: 45px; color: rgba(255, 255, 255, 1);line-height: 50px; margin: 0; padding: 0; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);} 
-#background-colossus .btn{padding: 15px 30px; font-size: 20px;}
-#background-colossus .texto-apresentacao{margin-right: auto;margin-bottom: 2rem;margin-left: auto;font-size:20px;color: #fff; max-width: 42%;}
+#background-colossus .btn{ font-size: 20px;}
+#background-colossus .texto-apresentacao{margin: 40px auto; font-size:34px;color: #fff; max-width: 74%; font-weight: 100;}
 #background-colossus .divider{margin: 0 auto 30px;font-size: 20px;color: #fff;}
-.btn-outline-transparent{color: #fff; background-color: transparent; border-color: #fff;}
-.btn-outline-transparent:hover{background: #f5f5f5;}
+.btn-outline-transparent{color: #fff; background-color: #f68029;}
+.btn-outline-transparent:hover{background: #f68029; color: #fff;}
 #conteudo{padding: 80px 0;}
 #conteudo h2{text-align: center; color: #333; margin-bottom: 5px;font-size: 35px;font-weight: 400; color: #333;}
 #conteudo p{max-width: 80%;margin:auto; font-size: 24px;}
@@ -43,7 +43,7 @@ a img{ border:none; }
 #menu a{padding-left: 10px;}
 #menu ul li a:hover{ background: transparent; color: #fff;}
 #menu .navbar-nav > li { width: 100%;}
-.item-menu{ display: block; float: left; font-weight: 500; color: #fff; margin: 16px; font-size: 20px; border-radius: 4px; background: rgba(255,255,255,.08); padding: 3px 12px;}
+.item-menu{ display: block; float: right; font-weight: 100; color: #fff; margin: 16px; font-size: 20px;}
 a.item-menu:hover, a.item-menu:active, a.item-menu:focus, a.item-menu:visited{ color: #fff; cursor: pointer; text-decoration: none;}
 
 
@@ -55,12 +55,16 @@ a.item-menu:hover, a.item-menu:active, a.item-menu:focus, a.item-menu:visited{ c
 .button-copy{position: relative;}
 .btn-copy{position: absolute;right: 16px;z-index: 10;display: block;padding: 5px 8px;font-size: 12px;color: #767676;cursor: pointer;background-color: #fff;border: 1px solid #e1e1e8;border-radius: 0 4px 0 4px;}
 
-                  
-                     
+                
 
 /********RODAPÉ*******/
 
 #rodape {background: #007bc1;padding: 40px;}
+#rodape p{color: #fffdfe;}
+.nav-footer{padding: 0; margin-bottom: 8px;}
+.nav-footer li{display: inline-block;}
+.nav-footer li+li{margin-left: 20px;}
+.nav-footer li a{color: #fff; font-weight: 400;}
 
 
 /****** RESPONSIVIDADE***/

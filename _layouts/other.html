@@ -14,13 +14,15 @@
 
 
   <body class="top">
-       {% include sidebar.html %}
-        {% include header.html %}
-         <!--conteudo-->
-          {{content}}
-          <!--Fim contéudo-->
+       <div id="wrapper">
+        {% include sidebar.html %}
+        {% include cabecalho.html %}
+            <!--conteudo-->
+                {{content}}
+            <!--Final contéudo-->
         {% include js.html %}
         {% include footer.html %}
+       </div>
   </body>
 
 </html>

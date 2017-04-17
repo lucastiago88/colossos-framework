@@ -3,13 +3,13 @@
 
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
-        $("#wrapper").toggleClass("toggled", 5000);
+        $("#wrapper").toggleClass("toggled", 6000);
     });
     
     
     $(".closebtn").click(function(e){
         e.preventDefault();
-        $("#wrapper").toggleClass("toggled", 5000);
+        $("#wrapper").toggleClass("toggled", 6000);
     });
     
 

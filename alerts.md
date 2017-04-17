@@ -1,17 +1,11 @@
 ---
-layout: default-inicio
+layout: default
 title: Alerts 
 permalink: /alerts/
 ---
 
 
- <div class="cor-smed-500" id="topo-logo">
-      <div class="container">
-          <div class="row">
-             <h1 id="colossus">{{page.title}}</h1>
-          </div>
-      </div>
-  </div>
+
   
   <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
     <div class="container">

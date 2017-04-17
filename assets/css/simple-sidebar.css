@@ -9,7 +9,7 @@
 /* Toggle Styles */
 
 #wrapper {
-    padding-left: 0;
+    padding-right: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -26,18 +26,18 @@
 }
 
 #wrapper.toggled {
-    padding-left: 250px;
+    padding-right: 250px;
 }
 
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 250px;
+    right: 250px;
     width: 0;
     height: 100%;
-    margin-left: -250px;
+    margin-right: -250px;
     overflow-y: auto;
-    background: #2196f3;
+    background: #e5e5e5;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -79,13 +79,14 @@
 .sidebar-nav li a {
     display: block;
     text-decoration: none;
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
+    color: #333;
+    font-weight: 300;
+    font-size: 24px;
 }
 
 .sidebar-nav li a:hover {
     text-decoration: none;
-    color: #fff;
+    color: #333;
     background: rgba(255,255,255,0.2);
 }
 
@@ -111,11 +112,11 @@
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 0;
+        padding-right: 0;
     }
 
     #wrapper.toggled {
-        padding-left: 250px;
+        padding-right: 250px;
     }
 
     #sidebar-wrapper {
@@ -123,7 +124,7 @@
     }
 
     #wrapper.toggled #sidebar-wrapper {
-        width: 250px;
+        width: 500px;
     }
 
     #page-content-wrapper {
