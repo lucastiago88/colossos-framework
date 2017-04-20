@@ -2,16 +2,20 @@
 //Add Função menu TOOGLE
 
     $("#menu-toggle").click(function(e) {
-        e.preventDefault();
+        e.stopPropagation();
         $("#wrapper").toggleClass("toggled", 6000);
     });
     
     
-    $(".closebtn").click(function(e){
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled", 6000);
+    $("#sidebar-wrapper").click(function(e){
+        e.stopPropagation();
+    });
+
+    $("body,html").click(function(e){
+        $("#wrapper").removeClass("toggled", 6000);
     });
     
+
 
 
 

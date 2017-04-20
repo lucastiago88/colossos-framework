@@ -1,5 +1,6 @@
 ---
-layout: default-inicio
-title: Alerts 
+layout: page
+title: Forms 
 permalink: /forms/
 ---
+

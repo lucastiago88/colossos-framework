@@ -1,35 +1,31 @@
-
 /******* GERAL*******/
-
-body{margin: 0;padding: 0;background-color:#fff;   height: 100%; width: 100%;  font:16px "Source Sans Pro";}
-ul, ol{ list-style: none; padding:0; margin:0; }
+*{margin: 0; padding: 0; border: 0; box-sizing: border-box;}
+body{font:16px "Source Sans Pro";}
 a{ cursor:pointer; text-decoration:none;}
 a:hover, a:focus{ text-decoration:none; }
-a img{ border:none; }
-
 
 /****** Classes do Template*****/
-
-.cor-smed-colossus{background-color:#0066b3; }
+.background-smed-colossus{background-color:#0066b3;}
+.cor-smed-colossus{color:#0066b3;}
 .cor-smed-500{background-color:#1565C0; }
 .cor-smed-600{background-color:#2196f3; }
 .padding30px{margin-top: 30px;}
 
 /****** TOPO******/
 
-.superior-tema {padding: 10px;}
-.superior-tema-colossus {padding: 0;}
+
 #topo-logo{padding: 35px; color: #fff;}
 #nome-prefeitura{float: left}
 #nome-prefeitura h1{color: #fff; font-size: 15px;}
-#logomarca{ float: left;}
-#background-colossus{position: static; background: #0065b3; text-align: center;text-shadow: 0 1px 0 rgba(0,0,0,.1);padding: 80px 0}
+#logomarca-interna{ float: left;}
+#menu-hamburguer{float: right;}
+#background-colossus{position: static; background: #0065b3; text-align: center;text-shadow: 0 1px 0 rgba(0,0,0,.1);}
 #background-colossus .logo{border-radius: 50%;margin: 0 auto;color: #0065b3;background-color: #ffffff;display: block;font-size: 78px;font-weight: bold;width: 100px;}
 .bloco-texto{display: block; text-align: center; clear: both; position: relative;}
 #background-colossus  h1{ font-size: 45px; color: rgba(255, 255, 255, 1);line-height: 50px; margin: 0; padding: 0; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);} 
 #background-colossus .btn{ font-size: 20px;}
-#background-colossus .texto-apresentacao{margin: 40px auto; font-size:34px;color: #fff; max-width: 74%; font-weight: 100;}
-#background-colossus .divider{margin: 0 auto 30px;font-size: 20px;color: #fff;}
+#background-colossus p{font-size:34px;color: #fff; max-width: 74%; font-weight: 100;}
+#background-colossus .download-colossus{margin: 0 auto 30px;font-size: 20px;color: #fff;}
 .btn-outline-transparent{color: #fff; background-color: #f68029;}
 .btn-outline-transparent:hover{background: #f68029; color: #fff;}
 #conteudo{padding: 80px 0;}
@@ -43,23 +39,24 @@ a img{ border:none; }
 #menu a{padding-left: 10px;}
 #menu ul li a:hover{ background: transparent; color: #fff;}
 #menu .navbar-nav > li { width: 100%;}
-.item-menu{ display: block; float: right; font-weight: 100; color: #fff; margin: 16px; font-size: 20px;}
+.item-menu{ display: block;  font-weight: 100; color: #fff; margin: 16px; font-size: 20px;}
 a.item-menu:hover, a.item-menu:active, a.item-menu:focus, a.item-menu:visited{ color: #fff; cursor: pointer; text-decoration: none;}
 
 
 /*******Contéudo***********/
 
 .demo{position: relative; padding: 20px ; border: solid #f7f7f9; border-width: .2rem;}
-.componentes{ padding: 20px 0 0; margin-right: 0; margin-left: 0; background-color: #f7f7f9;}
-.componentes pre{padding: 0;margin-top: 0;margin-bottom: 0;background-color: transparent;border: 0;}
+.highlight{background-color: #f7f7f9;}
+.highlight pre{border: 1px solid #eee;padding: 0; margin-bottom: 14px;}
 .button-copy{position: relative;}
 .btn-copy{position: absolute;right: 16px;z-index: 10;display: block;padding: 5px 8px;font-size: 12px;color: #767676;cursor: pointer;background-color: #fff;border: 1px solid #e1e1e8;border-radius: 0 4px 0 4px;}
-
+.titulo-interna-colossus{ color:#2674b9; font-weight: 300; padding: 20px 0; }
+.version-colossus{margin: 20px; color: #1d4a80;}
                 
 
 /********RODAPÉ*******/
 
-#rodape {background: #007bc1;padding: 40px;}
+#rodape {background: #0065b3;padding: 40px;}
 #rodape p{color: #fffdfe;}
 .nav-footer{padding: 0; margin-bottom: 8px;}
 .nav-footer li{display: inline-block;}
@@ -71,4 +68,11 @@ a.item-menu:hover, a.item-menu:active, a.item-menu:focus, a.item-menu:visited{ c
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+@media (min-width: 576px)
+.highlight {
+    padding: 1.5rem;
+    margin-right: 0;
+    margin-left: 0;
 }

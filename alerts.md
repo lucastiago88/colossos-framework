@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Alerts 
 permalink: /alerts/
 ---
@@ -9,9 +9,8 @@ permalink: /alerts/
   
   <div class="col-lg-12 col-sm-12 col-xs-12 col-md-12">
     <div class="container">
-      <div class="row">
           <div class="col-12 col-sm-12 col-xl-12 col-md-12">
-            <h2 class="page-header">Exemplos:</h2>
+            <h1 class="cor-smed-colossus titulo-interna-colossus">{{page.title}}:</h1>
             <div class="demo">
                 <div class="alert alert-success-colossus alert-dismissible fade show" role="alert">
                       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -43,7 +42,7 @@ permalink: /alerts/
             </div>
         
             <button class="btn btn-copy" type="button" data-clipboard-action="copy">Copiar</button>  
-            <figure class="componentes">
+            <figure class="highlight">
                  <pre>
                    <code class="language-html" data-lang="html">
                     &lt;div class="alert alert-success-colossus alert-dismissible fade in" role="alert"&gt;
@@ -77,7 +76,6 @@ permalink: /alerts/
                 </pre>   
             </figure>     
           </div>
-      </div>
     </div>
 </div> 
 

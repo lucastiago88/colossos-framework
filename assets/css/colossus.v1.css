@@ -10,20 +10,12 @@
 
 /*Alerts*/
 
-.alert-success-colossus{
-background-color: #4caf50;
-}
+.alert-success-colossus{background-color: #4caf50;}
+.alert-warning-colossus{background-color: #ffeb3b;}
+.alert-info-colossus{background-color: #03a9f4;}
+.alert-danger-colossus{background-color: #f44336;}
 
-.alert-warning-colossus{
-background-color: #ffeb3b;
-}
 
-.alert-info-colossus{
-background-color: #03a9f4;
-}
-
-.alert-danger-colossus{
-background-color: #f44336;
-}
-
+/*Buttons*/
+.btn-primary-colossus{background-color: #1565C0; color: #fff;}
 
