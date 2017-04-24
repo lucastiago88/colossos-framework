@@ -1,6 +1,6 @@
 /******* GERAL*******/
-*{margin: 0; padding: 0; border: 0; box-sizing: border-box;}
-body{font:16px "Source Sans Pro";}
+*{margin: 0; padding: 0; border: 0;}
+body{font-family: "Source Sans Pro";-webkit-box-sizing: content-box;-moz-box-sizing: content-box; box-sizing: content-box;}
 a{ cursor:pointer; text-decoration:none;}
 a:hover, a:focus{ text-decoration:none; }
 
@@ -10,20 +10,18 @@ a:hover, a:focus{ text-decoration:none; }
 .cor-smed-500{background-color:#1565C0; }
 .cor-smed-600{background-color:#2196f3; }
 .padding30px{margin-top: 30px;}
+.p-180{padding: 180px;}
 
 /****** TOPO******/
 
 
 #topo-logo{padding: 35px; color: #fff;}
-#nome-prefeitura{float: left}
-#nome-prefeitura h1{color: #fff; font-size: 15px;}
 #logomarca-interna{ float: left;}
 #menu-hamburguer{float: right;}
-#background-colossus{position: static; background: #0065b3; text-align: center;text-shadow: 0 1px 0 rgba(0,0,0,.1);}
+#background-colossus{ background: #0065b3; text-align: center;text-shadow: 0 1px 0 rgba(0,0,0,.1);}
 #background-colossus .logo{border-radius: 50%;margin: 0 auto;color: #0065b3;background-color: #ffffff;display: block;font-size: 78px;font-weight: bold;width: 100px;}
 .bloco-texto{display: block; text-align: center; clear: both; position: relative;}
 #background-colossus  h1{ font-size: 45px; color: rgba(255, 255, 255, 1);line-height: 50px; margin: 0; padding: 0; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);} 
-#background-colossus .btn{ font-size: 20px;}
 #background-colossus p{font-size:34px;color: #fff; max-width: 74%; font-weight: 100;}
 #background-colossus .download-colossus{margin: 0 auto 30px;font-size: 20px;color: #fff;}
 .btn-outline-transparent{color: #fff; background-color: #f68029;}
@@ -31,6 +29,7 @@ a:hover, a:focus{ text-decoration:none; }
 #conteudo{padding: 80px 0;}
 #conteudo h2{text-align: center; color: #333; margin-bottom: 5px;font-size: 35px;font-weight: 400; color: #333;}
 #conteudo p{max-width: 80%;margin:auto; font-size: 24px;}
+.link{color: #fff; font-size: 30px; font-weight: 600;}
 
 /*******MENU*****/
 .sidebar-menu{background: #2196f3; height: 100%; max-height: 100%;}
@@ -61,7 +60,7 @@ a.item-menu:hover, a.item-menu:active, a.item-menu:focus, a.item-menu:visited{ c
 .nav-footer{padding: 0; margin-bottom: 8px;}
 .nav-footer li{display: inline-block;}
 .nav-footer li+li{margin-left: 20px;}
-.nav-footer li a{color: #fff; font-weight: 400;}
+.nav-footer li a{color: #fff; font-weight: 300;}
 
 
 /****** RESPONSIVIDADE***/
